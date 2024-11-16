@@ -1,11 +1,7 @@
 import React, { useState } from 'react';
 import {
   Box,
-  Paper,
   Typography,
-  List,
-  ListItem,
-  ListItemText,
   Button,
   Dialog,
   DialogTitle,

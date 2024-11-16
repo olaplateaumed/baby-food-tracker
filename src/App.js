@@ -23,6 +23,8 @@ function App() {
 
     // Set up alert checking interval
     const alertInterval = setInterval(() => {
+      console.log('Checking for alerts...', alerts);
+      
       const currentAlerts = checkFeedingAlerts(babies);
       setAlerts(currentAlerts);
       if (currentAlerts.length > 0) {
